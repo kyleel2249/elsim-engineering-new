@@ -20,7 +20,8 @@ Exit code `1` means one or more checks failed.
 |------|--------|
 | **robots.txt** | Reachable, allows crawl, declares sitemap, AI bot rules |
 | **sitemap.xml** | Reachable, valid urlset, public hosts, key routes listed |
-| **Pages** (`/`, services, projects, blog, about, contact, quotation) | Status 200, title, description, robots, canonical, Open Graph, Twitter card, `html[lang]`, single `h1`, JSON-LD |
+| **llms.txt** | Present at `/llms.txt` with accurate company identity, services and key URLs for generative engines |
+| **Pages** (`/`, services, projects, blog, about, contact, quotation) | Status 200, title, description, robots, canonical, Open Graph, Twitter card, `html[lang]`, single `h1`, JSON-LD (Service, FAQPage, BreadcrumbList where applicable) |
 | **Headers** | `X-Content-Type-Options`, `X-Frame-Options`, `Referrer-Policy` |
 
 ## Manual checklist (outside the script)

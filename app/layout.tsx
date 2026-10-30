@@ -118,10 +118,10 @@ const siteJsonLd = {
       '@type': ['ProfessionalService', 'LocalBusiness'],
       additionalType: 'https://schema.org/EngineeringBusiness',
       '@id': organizationId,
-      name: 'ELSIM Engineering',
+      name: 'ELSIM Engineering Firm',
       legalName: company.legalName,
       alternateName: [
-        'ELSIM Engineering Firm',
+        'ELSIM Engineering',
         'ELSIM Engineering Firm Ltd',
         'elsimengineeringlimited.com',
         'www.elsimengineeringlimited.com',

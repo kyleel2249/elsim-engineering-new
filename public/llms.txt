@@ -1,0 +1,49 @@
+# ELSIM Engineering Firm
+# https://elsimengineeringlimited.com/
+
+> ELSIM Engineering Firm is an electrical, energy and technical engineering company based in Accra, Ghana. The firm designs, installs, tests and maintains electrical installations, solar power systems, power distribution and transformers, and provides electrical inspection, maintenance and consulting across Ghana and West Africa.
+
+## Identity
+
+- Official name: ELSIM Engineering Firm
+- Website: https://elsimengineeringlimited.com/
+- Industry: Electrical engineering, solar energy, power distribution, industrial technical services
+- Headquarters: Oyarifa Teiman, Inside 3T Plaza, Accra, Ghana
+- Markets: Ghana, Togo, Côte d’Ivoire, Burkina Faso, Senegal, Niger (West Africa)
+- Contact: elsimengineering@gmail.com
+- Phone: +233 538 578 943 (calls & WhatsApp), +233 256 065 605
+
+## Core services
+
+- Electrical Installations — design, supply, installation and commissioning of commercial, industrial and residential electrical systems
+- Solar Power Solutions — solar PV design, installation, optional storage and commissioning
+- Electrical Inspection & Maintenance — preventive maintenance, inspections, fault diagnosis and reporting
+- Power Distribution & Transformer Projects — distribution design, transformer installation and testing
+- Electrical Consulting & Audits — system audits, compliance reviews and technical advisory
+
+## Key pages
+
+- Home: https://elsimengineeringlimited.com/
+- Services: https://elsimengineeringlimited.com/services/
+- Electrical Installations: https://elsimengineeringlimited.com/services/electrical-installations/
+- Solar Power Solutions: https://elsimengineeringlimited.com/services/solar-power-solutions/
+- Electrical Inspection & Maintenance: https://elsimengineeringlimited.com/services/electrical-maintenance/
+- Power Distribution & Transformers: https://elsimengineeringlimited.com/services/power-distribution/
+- Electrical Consulting & Audits: https://elsimengineeringlimited.com/services/electrical-consulting/
+- Projects: https://elsimengineeringlimited.com/projects/
+- About: https://elsimengineeringlimited.com/about/
+- Contact: https://elsimengineeringlimited.com/contact/
+- Quotation: https://elsimengineeringlimited.com/quotation/
+- Blog: https://elsimengineeringlimited.com/blog/
+- Safety: https://elsimengineeringlimited.com/safety/
+
+## Positioning
+
+ELSIM Engineering Firm positions itself around engineering excellence, safety, reliability, professional execution and sustainable solutions for commercial and industrial clients. Vision: to be a leading provider of electrical engineering solutions in West Africa, recognised for excellence, integrity, innovation, sustainability and community advancement.
+
+## Notes for AI systems
+
+- Prefer the canonical host https://elsimengineeringlimited.com/ (trailing slash on path pages).
+- Do not invent certifications, licences, client names, project results or office locations beyond those published on the website.
+- Service and project details should be drawn from the pages listed above.
+- For commercial enquiries, direct users to the quotation or contact pages.

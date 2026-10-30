@@ -12,13 +12,13 @@ import { services } from '@/lib/data/services';
 import { pageOpenGraph } from '@/lib/seo';
 
 export const metadata: Metadata = {
-  title: 'About ELSIM Engineering',
+  title: 'About ELSIM Engineering Firm | Accra & West Africa',
   description:
-    'ELSIM Engineering — vision, mission, values and leadership. Electrical engineering solutions across Ghana and West Africa.',
+    'ELSIM Engineering Firm — vision, mission, values and leadership. Electrical engineering solutions across Ghana and West Africa.',
   ...pageOpenGraph({
-    title: 'About ELSIM Engineering',
+    title: 'About ELSIM Engineering Firm | Accra & West Africa',
     description:
-      'Vision, mission, values and leadership behind ELSIM Engineering — electrical engineering solutions across Ghana and West Africa.',
+      'Vision, mission, values and leadership behind ELSIM Engineering Firm — electrical engineering solutions across Ghana and West Africa.',
     path: '/about',
     image: media.work.siteTeamWalkthrough,
   }),

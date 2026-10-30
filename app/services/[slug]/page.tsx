@@ -74,10 +74,12 @@ export default function ServiceDetailPage({ params }: Props) {
     url: serviceUrl,
     provider: {
       '@type': 'ProfessionalService',
-      name: 'ELSIM Engineering',
+      name: 'ELSIM Engineering Firm',
+      alternateName: 'ELSIM Engineering',
       url: siteUrl,
       address: {
         '@type': 'PostalAddress',
+        streetAddress: company.address.line1,
         addressLocality: 'Accra',
         addressRegion: 'Greater Accra',
         addressCountry: 'GH',
@@ -100,6 +102,31 @@ export default function ServiceDetailPage({ params }: Props) {
         }
       : null;
 
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: absolutePageUrl('/'),
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Services',
+        item: absolutePageUrl('/services'),
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: service.title,
+        item: serviceUrl,
+      },
+    ],
+  };
+
   return (
     <div className="py-16 sm:py-24" style={{ backgroundColor: 'var(--theme-bg)' }}>
       <script
@@ -112,6 +139,10 @@ export default function ServiceDetailPage({ params }: Props) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
         />
       )}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
 
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
         <nav className="text-sm" aria-label="Breadcrumb">

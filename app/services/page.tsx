@@ -4,16 +4,21 @@ import { PageHeader } from '@/components/layout/PageHeader';
 import { Reveal } from '@/components/motion/Reveal';
 import { services } from '@/lib/data/services';
 import { media } from '@/lib/data/media';
-import { pageOpenGraph } from '@/lib/seo';
+import { metadataFromSeoMap, pageOpenGraph } from '@/lib/seo';
+
+const seo = metadataFromSeoMap('/services/', {
+  title: 'Engineering Services | Electrical, Solar & Power | ELSIM Ghana',
+  description:
+    'Electrical installations, solar power, inspection and maintenance, power distribution and consulting from ELSIM Engineering Firm in Ghana and West Africa.',
+});
 
 export const metadata: Metadata = {
-  title: 'Services',
-  description:
-    'Electrical installations, solar power, inspection and maintenance, power distribution and consulting from ELSIM Engineering in Ghana and West Africa.',
+  title: seo.title,
+  description: seo.description,
+  keywords: seo.keywords,
   ...pageOpenGraph({
-    title: 'Services — ELSIM Engineering',
-    description:
-      'Electrical installations, solar power, inspection and maintenance, power distribution and consulting across Ghana and West Africa.',
+    title: seo.title,
+    description: seo.description,
     path: '/services',
     image: media.work.panelWiringTeam,
   }),
